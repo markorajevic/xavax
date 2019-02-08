@@ -1,2 +1,6 @@
-var noble = require('noble');
-noble.startScanning(); // any service UUID, no duplicates
+const bluetooth = require('node-bluetooth');
+
+// create bluetooth device instance
+const device = new bluetooth.DeviceINQ();
+
+device.listPairedDevices(console.log);

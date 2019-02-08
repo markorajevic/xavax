@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "noble": "^1.9.1"
+    "node-bluetooth": "^1.2.5"
   }
 }
